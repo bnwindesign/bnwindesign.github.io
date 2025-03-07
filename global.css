@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    width: 100vw;
+    width: 100%;
     height: auto;
     margin: auto;
     overflow-x: hidden;
@@ -44,6 +44,10 @@ h1 {
 
 .section {
     margin-bottom: 3rem;
+}
+
+.mobile-hide {
+    display: inherit;
 }
 
 .navbar {
@@ -116,4 +120,24 @@ h1 {
 
 .footer {
     margin-top: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .mobile-hide {
+        display: none;
+    }
+
+    .info-line {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .info-header {
+        width: 100%;
+    }
+
+    .info-body {
+        width: 100%;
+    }
 }
