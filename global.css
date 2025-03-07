@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+h1 {
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed #b6b6b6;
+}
+
+.content-width {
+    width: 90vw;
+    max-width: 975px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid black;
+    position: sticky;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-link {
+    background-color: white;
+    color: black;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.cta {
+    background-color: black;
+    color: white;
+}
+
+.info-nolink {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.info-line {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2.5%;
+    margin-bottom: 0.5rem;
+}
+
+.info-header {
+    width: 15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+
+    p {
+        margin: 0;
+    }
+}
+
+.info-body {
+    width: 82.5%;
+    line-height: 1.6;
+
+    p {
+        margin: 0;
+    }
+}
+
+.hidden-link {
+    color: #757575;
+}
+
+.footer {
+    margin-top: 3rem;
+}
